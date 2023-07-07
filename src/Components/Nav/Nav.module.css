@@ -1,0 +1,88 @@
+.container{
+  backdrop-filter: blur(9px);
+  height: 4.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: .01rem;
+  z-index: 100;
+  user-select: none;
+}
+
+.containTitle{
+  display: flex;
+  justify-content: center;
+  margin-right: 25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding-right: 1rem;
+}
+
+.icon{
+  background-color: #131212;
+  color: #ffffff;
+  margin: 1.5rem;
+  border-radius: .3rem;
+  font-size: 3rem;
+}
+
+.title{
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 1.7rem;
+  font-weight: 1000;
+  text-shadow: 0 0 20px #c5c5c5;
+}
+
+.btn{
+  background-color: #080808;
+  color: #ffffff;
+  outline: 1px solid #ffffff;
+  border-bottom: 2px solid transparent;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  margin-right: 2rem;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 800;
+  box-shadow: 0 0 15px #69696b;
+  transition:.5s;
+}
+
+.btn:nth-child(2):hover{
+  box-shadow: none;
+  text-shadow: 0 0 20px #0fddc9;
+  outline: none;
+  border-bottom: 2px solid #03DAC5;
+  color: #33e9e0;
+  cursor: pointer;
+}
+
+.btn:nth-child(3):hover{
+  box-shadow: none;
+  text-shadow: 0 0 20px #FDC55F;
+  outline: none;
+  border-bottom: 2px solid #FDC55F;
+  color: #FDC55F;
+  cursor: pointer;
+}
+
+.btn:nth-child(4):hover{
+  box-shadow: none;
+  text-shadow: 0 0 20px #ac7ee9,0 0 20px #ac7ee9;
+  outline: none;
+  border-bottom: 2px solid #5C3294;
+  color: #773dc2;
+  cursor: pointer;
+}
+
+.btn:nth-child(5):hover{
+  box-shadow: none;
+  text-shadow: 0 0 20px #17F787;
+  outline: none;
+  border-bottom: 2px solid #17F787;
+  color: #17F787;
+  cursor: pointer;
+}
+

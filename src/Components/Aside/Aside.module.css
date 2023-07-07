@@ -1,0 +1,16 @@
+.contain{
+  background-color: #4d4d4db9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  width: 5rem;
+  height: 50vh;
+  border-radius: 1rem 3rem;
+}
+
+.icon{
+  font-size: 3rem;
+}
