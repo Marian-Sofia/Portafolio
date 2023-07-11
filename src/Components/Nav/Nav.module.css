@@ -1,5 +1,7 @@
 .container{
+  background-color: #00000042;
   backdrop-filter: blur(9px);
+  box-shadow: 0 0 15px #fff;
   height: 4.5rem;
   display: flex;
   justify-content: flex-end;
@@ -13,7 +15,7 @@
 .containTitle{
   display: flex;
   justify-content: center;
-  margin-right: 25rem;
+  margin-right: 23rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
   padding-right: 1rem;
@@ -36,53 +38,63 @@
 }
 
 .btn{
-  background-color: #080808;
+  background-color: #08080836;
   color: #ffffff;
   outline: 1px solid #ffffff;
   border-bottom: 2px solid transparent;
   padding: .5rem 1rem;
   margin: 1rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
   width: auto;
   font-size: 1rem;
   font-weight: 800;
   box-shadow: 0 0 15px #69696b;
   transition:.5s;
+  text-decoration: none;
 }
 
 .btn:nth-child(2):hover{
   box-shadow: none;
-  text-shadow: 0 0 20px #0fddc9;
+  text-shadow: 0 0 20px #ee4343, 0 0 20px #ee4343;
   outline: none;
-  border-bottom: 2px solid #03DAC5;
-  color: #33e9e0;
+  border-bottom: 2px solid #f71717;
+  color: #f71717;
   cursor: pointer;
 }
 
 .btn:nth-child(3):hover{
   box-shadow: none;
-  text-shadow: 0 0 20px #FDC55F;
+  text-shadow: 0 0 20px #1cd478, 0 0 20px #1cd478;
+  outline: none;
+  border-bottom: 2px solid #00a854;
+  color: #00a854;
+  cursor: pointer;
+}
+
+.btn:nth-child(4):hover{
+  box-shadow: none;
+  text-shadow: 0 0 20px #5C3294, 0 0 20px #5C3294;
+  outline: none;
+  border-bottom: 2px solid #5C3294;
+  color: #8551c9;
+  cursor: pointer;
+}
+
+.btn:nth-child(5):hover{
+  box-shadow: none;
+  text-shadow: 0 0 20px #FDC55F, 0 0 20px #FDC55F;
   outline: none;
   border-bottom: 2px solid #FDC55F;
   color: #FDC55F;
   cursor: pointer;
 }
 
-.btn:nth-child(4):hover{
+.btn:nth-child(6):hover{
   box-shadow: none;
-  text-shadow: 0 0 20px #ac7ee9,0 0 20px #ac7ee9;
+  text-shadow: 0 0 20px #35ffeb, 0 0 20px #35ffeb;
   outline: none;
-  border-bottom: 2px solid #5C3294;
-  color: #773dc2;
-  cursor: pointer;
-}
-
-.btn:nth-child(5):hover{
-  box-shadow: none;
-  text-shadow: 0 0 20px #17F787;
-  outline: none;
-  border-bottom: 2px solid #17F787;
-  color: #17F787;
+  border-bottom: 2px solid #35ffeb;
+  color: #35ffeb;
   cursor: pointer;
 }
 

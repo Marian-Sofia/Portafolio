@@ -1,16 +1,59 @@
 .contain{
-  background-color: #4d4d4db9;
+  background-color: #00000042;
+  backdrop-filter: blur(9px);
+  grid-column: 1/2;
+  box-shadow: 0 0 10px #fff;
+  position: sticky;
+  top: 11rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 8rem;
   margin-left: 1rem;
-  width: 5rem;
-  height: 50vh;
+  width: 4.5rem;
+  height: 60vh;
   border-radius: 1rem 3rem;
 }
 
 .icon{
-  font-size: 3rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  border-bottom: 2px solid #fff;
+  transition: .4s;
+}
+
+.link:nth-child(1) .icon:hover{
+  color: #5b5e5d;
+  border-bottom: 2px solid #5b5e5d;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.link:nth-child(2) .icon:hover{
+  color: #ffd900;
+  border-bottom: 2px solid #ffd900;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.link:nth-child(3) .icon:hover{
+  color: #1606a8;
+  border-bottom: 2px solid #1606a8;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.link:nth-child(4) .icon:hover{
+  color: #056802;
+  border-bottom: 2px solid #056802;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+  background-color: #fff;
+  border-radius: 1rem;
 }

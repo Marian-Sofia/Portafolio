@@ -8,7 +8,8 @@ const Nav = () => {
         <BiCodeBlock className={style.icon}/>
         <div className={style.title}>DEVELOPER</div>
       </div>
-      <div className={style.btn}>About Me</div>
+      <a href='#home' className={style.btn}>Home</a>
+      <a href='#about' className={style.btn}>About Me</a>
       <div className={style.btn}>Study and Projects</div>
       <div className={style.btn}>Skills</div>
       <div className={style.btn}>Contact</div>
