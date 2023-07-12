@@ -1,7 +1,8 @@
 import style from './Page.module.css'
 import Aside from '../Aside/Aside'
-import AboutMe from '../About Me/AboutMe';
+import AboutMe from '../Sobre Mi/AboutMe';
 import Home from '../Home/Home';
+import Proyectos from '../Proyectos/Proyectos';
 
 const Page = () => {
   return (
@@ -9,6 +10,7 @@ const Page = () => {
       <Aside/>
       <Home/>
       <AboutMe/>
+      <Proyectos/>
     </div>
   )
 }

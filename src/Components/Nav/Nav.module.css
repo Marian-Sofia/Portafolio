@@ -2,6 +2,7 @@
   background-color: #00000042;
   backdrop-filter: blur(9px);
   box-shadow: 0 0 15px #fff;
+  padding-right: 1rem;
   height: 4.5rem;
   display: flex;
   justify-content: flex-end;
@@ -15,7 +16,7 @@
 .containTitle{
   display: flex;
   justify-content: center;
-  margin-right: 16rem;
+  margin-right: 17rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
   padding-right: 1rem;
@@ -23,18 +24,19 @@
 
 .icon{
   background-color: #131212;
-  color: #ffffff;
+  color: #d4d4d4;
   margin: 1.5rem;
   border-radius: .3rem;
   font-size: 3rem;
 }
 
 .title{
+  font-family: 'Caprasimo', cursive;
   font-size: 2rem;
-  color: #ffffff;
+  color: #d4d4d4;
   margin-top: 1.7rem;
   font-weight: 1000;
-  text-shadow: 0 0 20px #c5c5c5;
+  text-shadow: 4px 4px 0 #474747;
 }
 
 .btn{

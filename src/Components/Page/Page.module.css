@@ -1,14 +1,6 @@
 .contain{
-  background-image: url('../Img/ondasAzul.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  position: relative;
-  top: -7rem;
   padding-right: 2rem;
-  padding-top: 9.2rem;
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: 10% 90%;
 }

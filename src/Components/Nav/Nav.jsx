@@ -8,11 +8,11 @@ const Nav = () => {
         <BiCodeBlock className={style.icon}/>
         <div className={style.title}>DESAROLLO WEB</div>
       </div>
-      <a href='#home' className={style.btn}>Inicio</a>
-      <a href='#about' className={style.btn}>Sobre Mi</a>
-      <div className={style.btn}>Estudio y Proyectos</div>
-      <div className={style.btn}>Aptitudes</div>
-      <div className={style.btn}>Contacto</div>
+      <a href='#inicio' className={style.btn}>Inicio</a>
+      <a href='#sobreMi' className={style.btn}>Sobre Mi</a>
+      <a href='#proyectos' className={style.btn}>Proyectos</a>
+      <a href='#aptitudes' className={style.btn}>Aptitudes</a>
+      <a href='#contacto' className={style.btn}>Contacto</a>
     </div>
   )
 }

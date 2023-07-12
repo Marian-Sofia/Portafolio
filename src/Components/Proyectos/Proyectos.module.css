@@ -1,0 +1,14 @@
+.contain{
+    background-color: #00000042;
+    backdrop-filter: blur(9px);
+    grid-column: 2/3;
+    height: 80vh;
+    width: auto;
+    display: grid;
+    align-content: center;
+    justify-items: start;
+    border-radius: 8rem 2rem;
+    margin: 3rem 0;
+    box-shadow: 0 0 5px #7c7c7c;
+    scroll-margin-top: 13ex;
+}

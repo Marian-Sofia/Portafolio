@@ -4,7 +4,7 @@ import Page from './Components/Page/Page'
 
 function App() {
   return (
-    <div  id="home">
+    <div  id="inicio">
       <Nav/>
       <Page/>
     </div>
