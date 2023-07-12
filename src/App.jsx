@@ -4,10 +4,10 @@ import Page from './Components/Page/Page'
 
 function App() {
   return (
-    <>
+    <div  id="home">
       <Nav/>
       <Page/>
-    </>
+    </div>
   )
 }
 

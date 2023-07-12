@@ -6,13 +6,13 @@ const Nav = () => {
     <div className={style.container}>
       <div className={style.containTitle}>
         <BiCodeBlock className={style.icon}/>
-        <div className={style.title}>DEVELOPER</div>
+        <div className={style.title}>DESAROLLO WEB</div>
       </div>
-      <a href='#home' className={style.btn}>Home</a>
-      <a href='#about' className={style.btn}>About Me</a>
-      <div className={style.btn}>Study and Projects</div>
-      <div className={style.btn}>Skills</div>
-      <div className={style.btn}>Contact</div>
+      <a href='#home' className={style.btn}>Inicio</a>
+      <a href='#about' className={style.btn}>Sobre Mi</a>
+      <div className={style.btn}>Estudio y Proyectos</div>
+      <div className={style.btn}>Aptitudes</div>
+      <div className={style.btn}>Contacto</div>
     </div>
   )
 }

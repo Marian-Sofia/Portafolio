@@ -4,12 +4,34 @@
     grid-column: 2/3;
     height: 80vh;
     width: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    align-content: center;
+    justify-items: start;
     border-radius: 8rem 2rem;
     margin: 3rem 0;
 }
 
+
+
+.title{
+    padding: 2rem;
+    margin: auto;
+    font-size: 3rem;
+    color: #0fcf6f;
+    text-shadow: 0 0 20px #4bffa5, 0 0 20px #4bffa5;
+}
+
+.text{
+    padding: 2rem;
+    margin: 0 2rem;
+    font-size: 1.8rem;
+    color: #ffff;
+    text-align: justify;
+}
+
+.span{
+    color: #00a854;
+    font-weight: 1000;
+    border-bottom: 1px solid #00a854;
+}
 

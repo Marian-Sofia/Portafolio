@@ -2,9 +2,11 @@ import style from './Home.module.css'
 
 const Home = () => {
     return (
-        <div className={style.contain} id="home">
-            <h1 className={style.title}>Welcome, I'm Marian Sofia</h1>
-            <h3 className={style.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cupiditate excepturi consequuntur necessitatibus ipsam nobis inventore, explicabo adipisci fugiat delectus earum quam suscipit, ratione aliquid reprehenderit? Praesentium beatae pariatur architecto!</h3>
+        <div className={style.contain}>
+            <img className={style.img} src='src\Components\Img\Avatar-removebg-preview.png'/>
+            <h1 className={style.title}>BIENVENIDOS, YO SOY</h1>
+            <h2 className={style.name}>MARIAN SOFIA</h2>
+            <h3 className={style.text}>Desarrolladora Web Full Stack, con residencia en Colombia. Soy una persona segura de sí misma, curiosa por naturaleza y siempre estoy trabajando para mejorar mis habilidades en la resolucion de un problema a la vez.</h3>
         </div>
     )
 }
