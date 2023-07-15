@@ -5,8 +5,8 @@
     height: 80vh;
     width: auto;
     display: grid;
-    grid-template-columns: 55% 45%;
-    grid-template-rows: 20% 13% 40%;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20% 10% 70%;
     border-radius: 8rem 2rem;
     box-shadow: 0 0 5px #7c7c7c;
     scroll-margin-top: 13ex;
@@ -45,52 +45,30 @@
 
 .section{
     grid-row: 3/4;
-    display: flex;
-    width: 35rem;
-    height: auto;
+    width: 650px;
+    margin: 1rem 0 1rem 1.5rem;
     overflow: hidden;
+    border-radius: 2rem;
+    outline: 3px solid #7a44c0;
 }
 
 .ul{
     display: flex;
     padding: 0;
-    width: 200%;
-    /* animation: slide 10s infinite alternate ease-in-out; */
-
+    width: 400%;
+    height: 700px;
+    animation: slide 16s infinite ease-in-out;
 }
 
 .li{
-    width: 50%;
-    margin-left: 2rem;
+    width: 100%;
     list-style: none;
-}
-
-.li:nth-child(1){
-    z-index: 80;
-    position: absolute;
-}
-
-.li:nth-child(2){
-    z-index: 60;
-    position: absolute;
-
-}
-
-.li:nth-child(3){
-    z-index: 40;
-    position: absolute;
-}
-
-.li:nth-child(4){
-    z-index: 20;
-    position: absolute;
 }
 
 .img{
     width: 100%;
+    height: 350px;
 }
-
-
 
 @keyframes slide {
     0% {margin-left: 0%;}
