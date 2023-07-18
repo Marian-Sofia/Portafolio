@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: start;
     border-radius: 8rem 2rem;
-    margin: 3rem 0;
+    margin: 5rem 0;
     box-shadow: 0 0 5px #7c7c7c;
     scroll-margin-top: 13ex;
 }
@@ -19,20 +19,66 @@
     font-size: 5.5rem;
     color: #eeff51;
     text-shadow: -6px -6px 0 #ffad16;
-    margin-left: 18rem;
+    margin-left: 14.5rem;
 }
 
 .container{
+    width: 60rem;
     padding: 3rem;
-    margin: auto;
+    margin-left: 5rem;
 }
 
 .icon{
-    background-color: #75757549;
+    background-color: #00000049;
+    backdrop-filter: blur(9px);
     border-radius: 1rem;
-    color: #eeff51;
-    font-size: 4.5rem;
-    outline: 2px solid #ffad16;
-    margin: .5rem;
+    font-size: 5.5rem;
+    outline: 2px solid #313131;
+    box-shadow: -6px 6px 0 #8b8b8b;
+    margin: 1.5rem;
     padding: .5rem;
+    cursor: pointer;
 }
+
+.icon:hover{
+    scale: 1.3;
+    outline: 2px solid #eeff51;
+    box-shadow: -6px 6px 0 #ffad16;
+}
+
+.icon:nth-child(1){
+    color: #F64A1D;
+  }
+  .icon:nth-child(2){
+    color: #0068BA;
+  }
+  .icon:nth-child(3){
+    color: #F7DF1E;
+  }
+  .icon:nth-child(4){
+    color: #7EC727;
+  }
+  .icon:nth-child(5){
+    color: #1399C4;
+  }
+  .icon:nth-child(6){
+    color: #7649BB;
+  }
+  .icon:nth-child(7){
+    color: #097ECD;
+  }
+  .icon:nth-child(8){
+    color: #143A51;
+  }
+  .icon:nth-child(9){
+    color: #4986b4;
+  }
+  .icon:nth-child(10){
+    color: #59B2E7;
+  }
+  .icon:nth-child(11){
+    color: #F15639;
+  }
+  .icon:nth-child(12){
+    color: #7EC727;;
+  }

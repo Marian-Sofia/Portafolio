@@ -1,4 +1,5 @@
 import style from './Proyectos.module.css'
+import { PiDownloadSimpleBold } from 'react-icons/pi'
 
 const Proyectos = () => {
     return (
@@ -23,8 +24,10 @@ const Proyectos = () => {
                         </li>
                     </ul>
                 </div>
-            <p className={style.text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque molestias dicta eius, reprehenderit fugit consequuntur sed eveniet non commodi minus facere ex nulla earum tempore aliquam animi ad illum suscipit!</p>
-        </div>
+            <p className={style.text}>Experiencia academica de proyecto individual del <span className={style.span}>Henry Bootcamp</span>. Constaba de desarrollar una <span className={style.span}>SPA</span> que incluia  filtros de conjunto, formulario para la creación de una nueva raza de perro, paginado con cartas donde se mostraban 8 perros por página, manejo de rutas, Api rest y CRUD completo. Con tecnologias como: <span className={style.span}>React, Redux, CSS, NodeJS, Express, PostgreSQL con Sequelize</span>.</p>
+
+            <a href='https://github.com/Marian-Sofia/Dogs-PI' className={style.btn}>Repositorio</a>
+            </div>
     )
 }
 

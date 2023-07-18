@@ -12,7 +12,6 @@ const Nav = () => {
       <a href='#sobreMi' className={style.btn}>Sobre Mi</a>
       <a href='#proyectos' className={style.btn}>Proyectos</a>
       <a href='#aptitudes' className={style.btn}>Aptitudes</a>
-      <a href='#contacto' className={style.btn}>Contacto</a>
     </div>
   )
 }

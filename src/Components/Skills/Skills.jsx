@@ -1,26 +1,24 @@
 import style from './Skills.module.css'
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoLess, BiLogoTypescript, BiLogoPostgresql, BiLogoGit, BiLogoNodejs, BiLogoSlack } from 'react-icons/bi'
-import { SiExpress, SiNextdotjs, SiPrisma, SiSequelize } from 'react-icons/si'
-import { PiFileSqlFill } from 'react-icons/pi'
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoRedux, BiLogoTypescript, BiLogoPostgresql, BiLogoGit, BiLogoNodejs} from 'react-icons/bi'
+import { SiExpress, SiPrisma, SiSequelize } from 'react-icons/si'
 
 const Skills = () => {
     return (
         <div className={style.contain} id='aptitudes'>
             <h1 className={style.title}>Mis Aptitudes</h1>
             <div className={style.container}>
-                <BiLogoHtml5 className={style.icon}/>
-                <BiLogoCss3 className={style.icon}/>
-                <BiLogoJavascript className={style.icon}/>
-                <SiExpress className={style.icon}/>
-                <BiLogoReact className={style.icon}/>
-                <BiLogoRedux className={style.icon}/>
-                <BiLogoTypescript className={style.icon}/>
-                <SiPrisma className={style.icon}/>
-                <BiLogoPostgresql className={style.icon}/>
-                <PiFileSqlFill className={style.icon}/>
-                <SiSequelize className={style.icon}/>
-                <BiLogoGit className={style.icon}/>
-                <BiLogoNodejs className={style.icon}/>
+                <BiLogoHtml5 title='HTML5' className={style.icon}/>
+                <BiLogoCss3 title='CSS3' className={style.icon}/>
+                <BiLogoJavascript title='' className={style.icon}/>
+                <SiExpress title='EXPRESS' className={style.icon}/>
+                <BiLogoReact title='REACT' className={style.icon}/>
+                <BiLogoRedux title='REDUX' className={style.icon}/>
+                <BiLogoTypescript title='TYPESCRIPT' className={style.icon}/>
+                <SiPrisma title='PRISMA' className={style.icon}/>
+                <BiLogoPostgresql title='POSTGRE' className={style.icon}/>
+                <SiSequelize title='SEQUELIZE' className={style.icon}/>
+                <BiLogoGit title='GIT' className={style.icon}/>
+                <BiLogoNodejs title='NODEJS' className={style.icon}/>
             </div>
         </div>
     )
