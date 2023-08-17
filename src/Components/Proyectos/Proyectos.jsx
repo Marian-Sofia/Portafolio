@@ -10,16 +10,16 @@ const Proyectos = () => {
         <div className={style.section}>
           <ul className={style.ul}>
             <li className={style.li}>
-              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/landing.png" />
+              <img className={style.img} src="https://i.ibb.co/YNHm2wG/landing.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/home.png" />
+              <img className={style.img} src="https://i.ibb.co/pL1STSW/home.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/search.png" />
+              <img className={style.img} src="https://i.ibb.co/vHzZfQC/search.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/detail.png" />
+              <img className={style.img} src="https://i.ibb.co/n3gnh2V/detail.png" />
             </li>
           </ul>
         </div>
