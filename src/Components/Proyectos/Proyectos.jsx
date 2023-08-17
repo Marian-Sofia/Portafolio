@@ -10,16 +10,16 @@ const Proyectos = () => {
         <div className={style.section}>
           <ul className={style.ul}>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\landing.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/landing.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\home.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/home.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\search.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/search.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\detail.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/detail.png" />
             </li>
           </ul>
         </div>
@@ -41,16 +41,16 @@ const Proyectos = () => {
         <div className={style.section}>
           <ul className={style.ul}>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\login.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/login.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\homepf.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/homepf.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\songspf.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/songspf.png" />
             </li>
             <li className={style.li}>
-              <img className={style.img} src="src\Img\admin.png" />
+              <img className={style.img} src="https://imagenesportafolio.s3.us-east-2.amazonaws.com/admin.png" />
             </li>
           </ul>
         </div>

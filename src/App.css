@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("../src/Img/ondasAzul.jpg");
+  background-image: url("https://imagenesportafolio.s3.us-east-2.amazonaws.com/ondasAzul.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
