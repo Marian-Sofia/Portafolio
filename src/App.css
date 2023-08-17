@@ -1,13 +1,13 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   scroll-behavior: smooth;
 }
 
-body{
-  background-image: url('../src/Img/ondasAzul.jpg');
+body {
+  background-image: url("../src/Img/ondasAzul.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -15,16 +15,16 @@ body{
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar{
-  width: .9rem;
+body::-webkit-scrollbar {
+  width: 0.9rem;
   background-color: #000027;
-} 
+}
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background: #00044e;
   border-radius: 1rem;
 }
 
-body::-webkit-scrollbar-thumb:hover{
+body::-webkit-scrollbar-thumb:hover {
   background: #0d1377;
 }

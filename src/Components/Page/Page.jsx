@@ -10,8 +10,8 @@ const Page = () => {
     <div className={style.contain}>
       <Aside/>
       <Home/>
-      <AboutMe/>
       <Proyectos/>
+      <AboutMe/>
       <Skills/>
     </div>
   )

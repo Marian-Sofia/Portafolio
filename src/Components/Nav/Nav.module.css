@@ -66,6 +66,15 @@
 
 .btn:nth-child(3):hover{
   box-shadow: none;
+  text-shadow: 0 0 20px #5C3294, 0 0 20px #5C3294;
+  outline: none;
+  border-bottom: 2px solid #5C3294;
+  color: #8551c9;
+  cursor: pointer;
+}
+
+.btn:nth-child(4):hover{
+  box-shadow: none;
   text-shadow: 0 0 20px #1cd478, 0 0 20px #1cd478;
   outline: none;
   border-bottom: 2px solid #00a854;
@@ -73,14 +82,6 @@
   cursor: pointer;
 }
 
-.btn:nth-child(4):hover{
-  box-shadow: none;
-  text-shadow: 0 0 20px #5C3294, 0 0 20px #5C3294;
-  outline: none;
-  border-bottom: 2px solid #5C3294;
-  color: #8551c9;
-  cursor: pointer;
-}
 
 .btn:nth-child(5):hover{
   box-shadow: none;

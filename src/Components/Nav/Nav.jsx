@@ -9,8 +9,8 @@ const Nav = () => {
         <div className={style.title}>DESAROLLO WEB</div>
       </div>
       <a href='#inicio' className={style.btn}>Inicio</a>
-      <a href='#sobreMi' className={style.btn}>Sobre Mi</a>
       <a href='#proyectos' className={style.btn}>Proyectos</a>
+      <a href='#sobreMi' className={style.btn}>Sobre Mi</a>
       <a href='#aptitudes' className={style.btn}>Aptitudes</a>
     </div>
   )
