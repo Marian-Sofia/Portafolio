@@ -7,7 +7,7 @@ const Home = () => {
             <h1 className={style.title}>BIENVENIDOS, YO SOY</h1>
             <h2 className={style.name}>MARIAN SOFIA</h2>
             <h3 className={style.text}>Desarrolladora Web Full Stack, con residencia en Colombia. Soy una persona segura de sí misma, curiosa por naturaleza y siempre estoy trabajando para mejorar mis habilidades en la resolucion de un problema a la vez.</h3>
-            <a className={style.CV} href='https://drive.google.com/file/d/1rgKjJCFMLHUceVWSP-oHygTWxIeraB6C/view?usp=drive_link' download target='_blank' >MI CV</a>
+            <a className={style.CV} href='https://drive.google.com/file/d/1awuVLyzJv8-DzB9T6_9bx5-bL9RnGq-g/view?usp=sharing' download target='_blank' >MI CV</a>
         </div>
     )
 }
