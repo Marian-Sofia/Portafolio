@@ -4,9 +4,9 @@ import Page from './Components/Page/Page'
 
 function App() {
   return (
-    <div  id="inicio">
-      <Nav/>
-      <Page/>
+    <div class='fondo' id="inicio">
+      <Nav />
+      <Page />
     </div>
   )
 }
