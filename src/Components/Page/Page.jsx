@@ -9,10 +9,10 @@ const Page = () => {
   return (
     <div className={style.contain}>
       <Aside/>
-      <Home/>
+      {/* <Home/>
       <Proyectos/>
       <AboutMe/>
-      <Skills/>
+      <Skills/> */}
     </div>
   )
 }

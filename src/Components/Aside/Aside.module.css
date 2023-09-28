@@ -1,4 +1,4 @@
-.contain{
+.contain {
   background-color: #00000042;
   backdrop-filter: blur(9px);
   grid-column: 1/2;
@@ -15,14 +15,14 @@
   border-radius: 1rem 3rem;
 }
 
-.icon{
+.icon {
   font-size: 2.5rem;
   color: #ffffff;
   border-bottom: 2px solid #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.link:nth-child(1) .icon:hover{
+.link:nth-child(1) .icon:hover {
   color: #5b5e5d;
   border-bottom: 2px solid #5b5e5d;
   margin-left: 2.5rem;
@@ -31,7 +31,7 @@
   border-radius: 1rem;
 }
 
-.link:nth-child(2) .icon:hover{
+.link:nth-child(2) .icon:hover {
   color: #ffd900;
   border-bottom: 2px solid #ffd900;
   margin-left: 2.5rem;
@@ -40,7 +40,7 @@
   border-radius: 1rem;
 }
 
-.link:nth-child(3) .icon:hover{
+.link:nth-child(3) .icon:hover {
   color: #1606a8;
   border-bottom: 2px solid #1606a8;
   margin-left: 2.5rem;
@@ -49,11 +49,18 @@
   border-radius: 1rem;
 }
 
-.link:nth-child(4) .icon:hover{
+.link:nth-child(4) .icon:hover {
   color: #056802;
   border-bottom: 2px solid #056802;
   margin-left: 2.5rem;
   font-size: 4rem;
   background-color: #fff;
   border-radius: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .contain {
+    visibility: hidden;
+    position: relative;
+  }
 }

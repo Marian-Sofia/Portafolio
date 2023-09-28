@@ -1,7 +1,6 @@
 import { FaGithubAlt } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiOutlineWhatsApp } from "react-icons/ai";
+import { AiFillLinkedin, AiOutlineWhatsApp } from "react-icons/ai";
 import style from "./Aside.module.css";
 
 const Aside = () => {
