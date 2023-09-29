@@ -94,7 +94,7 @@
     height: 10rem;
     width: 10rem;
     object-fit: cover;
-    border-radius: 5rem;
+    border-radius: 0;
     outline: 2px solid #ffff;
   }
 
@@ -132,7 +132,7 @@
     text-decoration: none;
     color: #ffff;
     text-shadow: -3px 3px 0 #000;
-    border-radius: 1rem;
+    border-radius: 0;
     outline: 3px solid #7f0f0f;
   }
 }
