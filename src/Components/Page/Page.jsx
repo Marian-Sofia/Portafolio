@@ -9,8 +9,8 @@ const Page = () => {
   return (
     <div className={style.contain}>
       <Aside/>
-      {/* <Home/>
-      <Proyectos/>
+      <Home/>
+      {/* <Proyectos/>
       <AboutMe/>
       <Skills/> */}
     </div>

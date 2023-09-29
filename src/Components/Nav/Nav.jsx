@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div className={style.container}>
       <div className={style.containTitle}>
-        <div className={style.title}>DESAROLLO WEB</div>
+        <div className={style.title}>DESARROLLO WEB</div>
       </div>
 
       <CgMenuGridO className={style.iconMenu} onClick={() => setMenu(!menu)} />

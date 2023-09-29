@@ -3,3 +3,10 @@
   display: grid;
   grid-template-columns: 10% 90%;
 }
+
+@media screen and (max-width: 767px) {
+  .contain{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
