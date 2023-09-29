@@ -145,11 +145,9 @@
   .btn {
     font-size: .8rem;
     padding: 0.2rem 0.3rem;
-    /* box-shadow: 0 0 8px #69696b; */
     box-shadow: none;
     outline: none;
     border-bottom: 1px solid #fff;
-    /* background-color: #000; */
   }
   
   .contain {
