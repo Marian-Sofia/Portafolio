@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 767px) {
   .container {
-    background-color: #000000;
+    background-color: #000137;
     box-shadow: 0 0 15px #fff;
     width: 100vw;
     height: auto;
@@ -142,13 +142,13 @@
   }
 
   .btn {
-    font-size: .8rem;
+    font-size: 0.8rem;
     padding: 0.2rem 0.3rem;
     box-shadow: none;
     outline: none;
     border-bottom: 1px solid #fff;
   }
-  
+
   .contain {
     display: flex;
     justify-content: center;
@@ -159,44 +159,43 @@
     margin: 1.5rem 0 0;
   }
 
-  .contact{
+  .contact {
     color: #fff;
   }
-  
+
   .icon {
     font-size: 1.5rem;
     transition: 0.3s;
   }
-  
-  .link:nth-child(2) .icon{
+
+  .link:nth-child(2) .icon {
     color: #5b5e5d;
     border-bottom: 2px solid #5b5e5d;
   }
-  
-  .link:nth-child(3) .icon{
+
+  .link:nth-child(3) .icon {
     color: #ffd900;
     border-bottom: 2px solid #ffd900;
   }
-  
-  .link:nth-child(4) .icon{
+
+  .link:nth-child(4) .icon {
     color: #1606a8;
     border-bottom: 2px solid #1606a8;
   }
-  
-  .link:nth-child(5) .icon{
+
+  .link:nth-child(5) .icon {
     color: #056802;
     border-bottom: 2px solid #056802;
   }
-  
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  .container{
+  .container {
     height: 8vh;
-    background-color: #000137de;
-  backdrop-filter: blur(10px);
+    background-color: #000137;
+    backdrop-filter: blur(10px);
   }
-  
+
   .btn {
     font-size: 1rem;
     padding: 0.4rem;
