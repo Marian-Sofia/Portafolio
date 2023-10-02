@@ -247,7 +247,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 3rem 0;
+    margin: 3rem 0 2rem;
     padding: 0;
   }
 
@@ -274,7 +274,7 @@
   }
 
   .proyect {
-    margin: 0 auto;    
+    margin: 0 auto;
     font-family: 'Caprasimo', cursive;
     font-size: 2rem;
     color: #7a44c0;
@@ -354,7 +354,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;

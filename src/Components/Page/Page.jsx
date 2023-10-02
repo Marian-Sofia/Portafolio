@@ -11,8 +11,8 @@ const Page = () => {
       <Aside/>
       <Home/>
       <Proyectos/>
-      {/* <AboutMe/>
-      <Skills/> */}
+      <AboutMe/>
+      <Skills/>
     </div>
   )
 }

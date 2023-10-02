@@ -5,7 +5,7 @@ import { SiExpress, SiPrisma, SiSequelize } from 'react-icons/si'
 const Skills = () => {
     return (
         <div className={style.contain} id='aptitudes'>
-            <h1 className={style.title}>Mis Aptitudes</h1>
+            <h1 className={style.title}>Mis Skills</h1>
             <div className={style.container}>
                 <BiLogoHtml5 title='HTML5' className={style.icon}/>
                 <BiLogoCss3 title='CSS3' className={style.icon}/>
