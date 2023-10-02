@@ -242,7 +242,7 @@
 @media screen and (max-width: 767px) {
   .contain {
     height: auto;
-    width: 95%;
+    width: 100%;
     scroll-margin-top: 18ex;
     display: flex;
     flex-direction: column;
