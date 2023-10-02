@@ -101,8 +101,7 @@
 
 @media screen and (max-width: 767px) {
   .container {
-    background-color: #00000042;
-    backdrop-filter: blur(9px);
+    background-color: #000000;
     box-shadow: 0 0 15px #fff;
     width: 100vw;
     height: auto;
