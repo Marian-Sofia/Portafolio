@@ -28,20 +28,23 @@ const Proyectos = () => {
         <p className={style.text}>
           <span className={style.span}>GreenScreen </span>es una plataforma web dedicada al mundo del cine y las películas. Los usuarios pueden explorar una extensa biblioteca de películas, publicar reseñas y comentarios, así como realizar donaciones para apoyar a los desarrolladores. La plataforma ofrece características avanzadas, incluyendo filtros de búsqueda, una pasarela de pagos segura, almacenamiento de medios en Cloudinary y un panel de administración para el control total de la comunidad. GreenScreen es el destino definitivo para los amantes del cine, donde podrán descubrir, disfrutar y contribuir al emocionante universo cinematográfico.
         </p>
-        <a
-          target="_blank"
-          href="https://movies-front-tau.vercel.app/"
-          className={style.btn}
-        >
-          Deploy
-        </a>
-        <a
-          target="_blank"
-          href="https://github.com/MoviesPf"
-          className={style.btnRepo}
-        >
-          Repositorio
-        </a>
+
+        <div className={style.containBtn}>
+          <a
+            target="_blank"
+            href="https://movies-front-tau.vercel.app/"
+            className={style.btn}
+          >
+            Deploy
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/MoviesPf"
+            className={style.btnRepo}
+          >
+            Repositorio
+          </a>
+        </div>
 
         <div className={style.skills}>
           <span className={style.span}>Tecnologias usadas:</span>
@@ -84,20 +87,22 @@ const Proyectos = () => {
           reproducción personalizadas y marcar sus canciones favoritas. Además, Soul Music ofrece membresías premium con contenido directamente desde la plataforma. Con una pasarela de pagos segura y un panel de administración completo.
         </p>
 
-        <a
-          target="_blank"
-          href="https://soul-music-pf.netlify.app/home"
-          className={style.btn}
-        >
-          Deploy
-        </a>
-        <a
-          target="_blank"
-          href="https://github.com/Marian-Sofia/PF-Henrify"
-          className={style.btnRepo}
-        >
-          Repositorio
-        </a>
+        <div className={style.containBtn}>
+          <a
+            target="_blank"
+            href="https://soul-music-pf.netlify.app/home"
+            className={style.btn}
+          >
+            Deploy
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/Marian-Sofia/PF-Henrify"
+            className={style.btnRepo}
+          >
+            Repositorio
+          </a>
+        </div>
 
         <div className={style.skills}>
           <span className={style.span}>Tecnologias usadas:</span>

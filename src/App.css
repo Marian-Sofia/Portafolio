@@ -19,7 +19,7 @@ body {
   background-color: #00002770;
   backdrop-filter: blur(2px);
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 body::-webkit-scrollbar {
