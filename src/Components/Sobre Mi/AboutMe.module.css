@@ -47,6 +47,7 @@
 
   .title {
     font-size: 2rem;
+    text-shadow: -4px -4px 0 #017238;
     margin: 1rem auto;
   }
 
