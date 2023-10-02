@@ -193,7 +193,7 @@
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .container {
     height: 8vh;
-    background-color: #000137;
+    background-color: #000137d8;
     backdrop-filter: blur(10px);
   }
 
